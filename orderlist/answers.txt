@@ -1,0 +1,9 @@
+Finally, could you answer these questions:
+a) Why did you pick your particular your design? What assumptions did you make, and
+what tradeoffs did you consider?
+b) What do you like (and dislike) about Node/Javascript compared to other
+programming languages?
+
+
+a) I picked this design just for realization of the task. I make it in Chrome. Internet Explorer could not support some features like element.dataset;
+b) I dislike JavaScript mostly because of type of null and the callbacks. Callbacks can make organizing a sequence of network request not a simple task and the code will contain a lot of blocks.

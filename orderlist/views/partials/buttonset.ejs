@@ -1,0 +1,26 @@
+<div id = "buttonset">
+<table>
+<tr><td>
+<div class = "operation"  data-operation = "show_by_company" >
+Show all orders from a particular company
+</div>
+</td></tr>
+<tr><td>
+<div class = "operation" data-operation = "show_by_address">
+Show all orders to a particular address</div>
+</td></tr>
+<tr><td>
+<div class = "operation" data-operation = "delete_by_orderid">delete a particular order given an OrderId</div>
+</td></tr>
+<tr><td>
+<div class = "operation" data-operation = "display_frequency">display how often each item has been ordered, in descending order</div>
+</td></tr>
+</table>
+<div id = parameterset hidden>
+<div id = parametercaption></div>
+<input type = text name = parameter value = "" id = "parameter">
+<button id = operation_performer>Perform operation</button>
+</div>
+
+</div>
+<script src = "app/application.js"></script>

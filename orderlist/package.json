@@ -1,0 +1,15 @@
+{
+  "name": "orderlist",
+  "version": "0.1.0",
+  "description": "orderlist of Borderguru",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "order",
+    "list"
+  ],
+  "author": "Ivan V Urvanov",
+  "license": "ISC"
+}
