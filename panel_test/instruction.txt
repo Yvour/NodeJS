@@ -1,0 +1,12 @@
+This application requires nodejs and mongodb to being installed on your computer
+Mongodb is needed to be started for this application.
+You also need to install the modules application uses(ejs, mongoose, body-parser and express).
+The installation is to be performed using npm by typing this instruction in the console (it must by typed in the folder this instruction originally located)
+
+npm install express ejs mongoose body-parser
+
+
+After starting mongodb you can start this application using the command (typed in the folder this file originally located)
+
+
+node index.js

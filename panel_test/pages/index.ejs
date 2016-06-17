@@ -1,0 +1,24 @@
+
+<% include ../partials/pageheader %>
+
+<% include ../partials/buttonset %>
+<div id = statistics>
+</div>
+<div id = orderlist>
+<table>
+   <thead>
+    <tr>
+      <td>orderId</td>
+      <td>companyName</td>
+      <td>customerAddress</td>
+      <td>orderedItem</td>
+    </tr>   
+   </thead>
+   <tbody>
+   <% orders.forEach(function(order){ %>
+   <%- include ../partials/order {order:order}); %>
+   <% }); %>
+   <tbody>
+</table>     
+</div> 
+<% include ../partials/pagefooter %>

@@ -1,0 +1,17 @@
+{
+  "name": "panel_test",
+  "version": "0.0.1",
+  "description": "Simple API access module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "API",
+    "test",
+    "JSON",
+    "AJAX"
+  ],
+  "author": "I. V. Urvanov",
+  "license": "ISC"
+}

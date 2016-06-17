@@ -1,0 +1,16 @@
+{
+  "name": "castles",
+  "version": "1.0.0",
+  "description": "very complex system",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "very",
+    "complex",
+    "system"
+  ],
+  "author": "I Urvanov",
+  "license": "ISC"
+}
