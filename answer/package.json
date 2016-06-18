@@ -1,0 +1,17 @@
+{
+  "name": "answer",
+  "version": "0.0.1",
+  "description": "simple server answer performer",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "server",
+    "answer",
+    "performer",
+    "NodeJS"
+  ],
+  "author": "I. Urvanov",
+  "license": "ISC"
+}
