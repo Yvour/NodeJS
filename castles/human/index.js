@@ -1,3 +1,4 @@
+var fs = require('fs')
 
 function Finger(data) {
 	"use strict"
@@ -72,4 +73,15 @@ Object.defineProperty(Human.prototype, 'name', {
 	}
 });
 
+if (module.parent){
  exports.Human = Human;
+}
+else
+{
+ fs.readFile('humandata', function(err, data){
+ if (err) {console.error(err);}
+else 
+{ console.log(data.toString('utf-8'))}
+
+})
+};
